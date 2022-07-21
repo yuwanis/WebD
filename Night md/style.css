@@ -1,0 +1,30 @@
+#main-cont {
+    box-sizing: border-box;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+#posts {
+    display: flex;
+}
+#single-post1,#single-post2,#single-post3 {
+    width: 30%;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+i {
+    font-size: 48px;
+    color: black;
+    margin: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
